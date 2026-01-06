@@ -2,6 +2,19 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.card {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #E3E3E3;
+    overflow: hidden;
+}
+
+.card:hover {
+    background-color: #DEEBFF;
+    cursor: pointer;
+}
+
 html, body {
     max-width: 100%;
 
@@ -27,27 +40,14 @@ nav {
     gap: 75px;
 }
 
-.hebergements {
+nav a {
     font-weight: 400;
-    padding-top: 20px;
     text-decoration: none;
     color: black;
-}
-
-.hebergements:hover {
-    color: #0065FC;
-    border-top: 2px solid #0065FC;
-
-}
-
-.activites {
-    font-weight: 400;
     padding-top: 20px;
-    text-decoration: none;
-    color: black;
 }
 
-.activites:hover {
+nav a:hover {
     color: #0065FC;
     border-top: 2px solid #0065FC;
 }
@@ -115,17 +115,15 @@ nav {
 }
 
 .filterbar {
-    align-items: center;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
     padding-left: 20px;
-    gap:10px;
 }
 
 .FBsection{
     align-items: center;
     display:flex;
-    flex-direction: row;
     gap:15px;
 }
 
@@ -207,22 +205,11 @@ nav {
 }
 
 .hebergementscards {
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     font-weight: 800;
-    border-radius: 20px;
     border: 5px solid white;
-    background-color: white;
-    box-shadow: 1px 1px 10px #E3E3E3;
     height: 200px;
-    overflow: hidden;
     width: 29%;
-}
-
-.hebergementscards:hover {
-    background-color: #DEEBFF;
-    cursor: pointer;
 }
 
 .MarseilleTP{
@@ -297,14 +284,9 @@ nav {
 }
 
 .popularcards {
-    display: flex;
-    flex-direction: row;
     margin: 5px;
     font-weight: 800;
-    border-radius: 20px;
     border: 5px solid white;
-    background-color: white;
-    box-shadow: 1px 1px 10px #E3E3E3;
     width: 369px;
     height: 144px;
 }
@@ -351,14 +333,9 @@ nav {
 }
 
 .ACTMcards {
-    display: flex;
     flex-direction: column;
-    border-radius: 25px;
     font-weight: 800;
-    background-color: white;
-    box-shadow: 1px 1px 10px #E3E3E3;
     width: 25%;
-    overflow: hidden;
 }
 
 .flexACTMcards{
@@ -393,17 +370,7 @@ nav {
     justify-content: space-evenly;
 }
 
-.footerC1 {
-    display: flex;
-    flex-direction: column;
-}
-
-.footerC2 {
-    display: flex;
-    flex-direction: column;
-}
-
-.footerC3 {
+.footertext > div {
     display: flex;
     flex-direction: column;
 }
