@@ -58,7 +58,7 @@ nav a:hover {
     padding-left: 50px;
 }
 
-.ouca {
+.Locationad {
     font-weight: 400;
 
 }
@@ -82,7 +82,7 @@ nav a:hover {
     cursor: pointer;
 }
 
-.LFGbutton{
+.Placeholder1{
     border:1px solid #F2F2F2; 
 }
 
@@ -106,7 +106,7 @@ nav a:hover {
     cursor: pointer;
 }
 
-#phoneMQRB{
+#phoneMagnifier{
     display:none;
 }
 
@@ -121,7 +121,7 @@ nav a:hover {
     padding-left: 20px;
 }
 
-.FBsection{
+.FilterButtonsSection{
     align-items: center;
     display:flex;
     gap:15px;
@@ -151,7 +151,7 @@ nav a:hover {
     background-color: #DEEBFF;
 }
 
-.advice {
+.DispoAd {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -178,7 +178,7 @@ nav a:hover {
     box-sizing: border-box;
 }
 
-.hebergementsM {
+.hebergementsMarseille {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -212,7 +212,7 @@ nav a:hover {
     width: 29%;
 }
 
-.MarseilleTP{
+.HubItemInfo{
     display:flex;
     flex-direction: column;
     margin-left: 10px;
@@ -254,7 +254,6 @@ nav a:hover {
 .ratingstars {
     display: flex;
     flex-direction: row; 
-    margin-top:5%;
 }
 
 .popular {
@@ -320,7 +319,7 @@ nav a:hover {
     justify-content: space-between;
 }
 
-.activitesM {
+.activitesMarseille {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -418,7 +417,7 @@ nav a:hover {
         padding: 20px;
     }
 
-    .hebergementsM {
+    .hebergementsMarseille {
         max-width: 100%;
         box-sizing: border-box;
     }
@@ -450,7 +449,7 @@ nav a:hover {
         margin-left: 15px;
     }
 
-    .activitesM {
+    .activitesMarseille {
         gap:15px;
         margin-bottom: 50px;
         box-sizing: border-box;
@@ -509,7 +508,7 @@ nav a:hover {
         display:none;
     }
 
-    #phoneMQRB{
+    #phoneMagnifier{
     display:block;
     border-radius: 0 15px 15px 0px;
     background-color: #0065FC;
@@ -568,7 +567,7 @@ nav a:hover {
         border-top: none;
     }
 
-    .ouca {
+    .Locationad {
         font-weight: 200;
     }
 
@@ -596,7 +595,7 @@ nav a:hover {
         width:45%;
     }
 
-    .FBsection{
+    .FilterButtonsSection{
         display:flex;
         flex-wrap: wrap;
         box-sizing: border-box;
@@ -605,7 +604,7 @@ nav a:hover {
         margin: 0px;
     }
 
-    .advice{
+    .DispoAd{
         justify-content: center;
         padding-left: 20px;
         gap: 10px;
@@ -626,7 +625,7 @@ nav a:hover {
         box-sizing: border-box;
     }
 
-    .hebergementsM {
+    .hebergementsMarseille {
         display: flex;
         flex-direction: column;
         border-radius: 0px;
@@ -642,7 +641,7 @@ nav a:hover {
         padding-left: 0px;
     }
 
-    .activitesM{
+    .activitesMarseille{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
