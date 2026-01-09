@@ -40,6 +40,10 @@ nav {
     gap: 75px;
 }
 
+a{
+    text-decoration: none;
+}
+
 nav a {
     font-weight: 400;
     text-decoration: none;
@@ -508,6 +512,10 @@ nav a:hover {
         display:none;
     }
 
+    .Placeholder1{
+        width: 90%;
+    }
+
     #phoneMagnifier{
     display:block;
     border-radius: 0 15px 15px 0px;
@@ -573,6 +581,7 @@ nav a:hover {
 
     .recherchebar {
         padding-left:20px;
+        padding-right:20px;
         box-sizing: border-box;
     }
 
