@@ -145,6 +145,14 @@ nav a:hover {
     gap:5px;
 }
 
+.blueicon{
+    color: #005eff;
+}
+
+.greyicon{
+    color:#ababab;
+}
+
 .filterpic {
     max-height: 25px;
     max-width: 25px;
