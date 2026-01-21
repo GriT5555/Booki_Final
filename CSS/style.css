@@ -378,17 +378,24 @@ nav a:hover {
     padding-left: 15px;
 }
 
+.footerblock{
+    box-sizing: border-box;
+}
+
 .footertext{
+    box-sizing: border-box;
     background-color: #F2F2F2;
     display:flex;
     flex-direction: row;
     width:100%;
-    justify-content: space-evenly;
+    justify-content: start;
+    padding-left: 15px;
 }
 
 .footertext > div {
     display: flex;
     flex-direction: column;
+    width: 33%;
 }
 
 .footerlinks {
@@ -744,6 +751,11 @@ nav a:hover {
         flex-direction:column;
         max-width: 100%;
         margin-left: 5%;
+        padding-left: 0px;
+    }
+
+    .footertext>div{
+        width: 100%;
     }
 
     footer{
