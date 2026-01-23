@@ -158,6 +158,10 @@ nav a:hover {
     color:#ababab;
 }
 
+.blackicon{
+    color:#000000;
+}
+
 .filterpic {
     max-height: 25px;
     max-width: 25px;
